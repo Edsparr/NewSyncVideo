@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewSyncVideo.Website", "NewSyncVideo.Website\NewSyncVideo.Website.csproj", "{743C50BC-E3A3-4244-8AF9-4064B560E678}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewSyncVideo.Website.Api", "NewSyncVideo.Website.Api\NewSyncVideo.Website.Api.csproj", "{F07B543A-2158-4A84-812D-EAF7EF91613C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{743C50BC-E3A3-4244-8AF9-4064B560E678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{743C50BC-E3A3-4244-8AF9-4064B560E678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{743C50BC-E3A3-4244-8AF9-4064B560E678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{743C50BC-E3A3-4244-8AF9-4064B560E678}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F07B543A-2158-4A84-812D-EAF7EF91613C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F07B543A-2158-4A84-812D-EAF7EF91613C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F07B543A-2158-4A84-812D-EAF7EF91613C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F07B543A-2158-4A84-812D-EAF7EF91613C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {144BF70C-6B04-420A-9B40-EE75745B3C5A}
+	EndGlobalSection
+EndGlobal
