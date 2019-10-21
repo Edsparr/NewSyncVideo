@@ -43,8 +43,6 @@ export class FetchData extends Component {
     let participants = null;
 
     if (this.player != null && this.player.state.userRoomInfo !== null) {
-      console.log(this.player.state);
-
       participants = this.player.state.userRoomInfo.room.participants.map(c => {
         <p>{c.name} ({c.id})</p>
       });
